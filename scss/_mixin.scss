@@ -1,0 +1,15 @@
+@mixin text($fs: $text-base, $fw :$font-normal, $c: $c1-700) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $c;
+}
+
+@mixin button($bg, $fs, $fw, $c, $bd, $pd, $br) {
+  background: $bg;
+  @include text($fs, $fw, $c);
+  border: $bd;
+  padding: $pd;
+  border-radius: $br;
+  cursor: pointer;
+  transition: 0.5s;
+}
