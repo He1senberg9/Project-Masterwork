@@ -1,8 +1,54 @@
+.container {
+  max-width: 1200px;
+}
+
+.ourselves {
+  min-height: 480px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url("../image/home/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+
+.ourselves header .middle-section {
+  max-width: 550px;
+}
+
+.ourselves header .middle-section h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ourselves header .middle-section p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 16px 0 30px 0;
+}
+
+.ourselves header .middle-section button {
+  background: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #343a40;
+  border: 0;
+  padding: 14px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.next {
+  height: 600px;
+  background-color: red;
+}
+
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
 }
-/*# sourceMappingURL=style.css.map */

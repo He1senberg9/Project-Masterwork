@@ -1,0 +1,36 @@
+@import "./mixin";
+@import "./variable";
+.container{
+    max-width: 1200px;
+}
+.ourselves{
+    min-height:480px;
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)), url("../image/home/bg.jpg");
+    background-repeat: no-repeat;
+    background-position:center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding : 70px 0;
+    
+    header{
+        
+        .middle-section{
+            max-width: 550px;
+            h1{
+                @include text($text-xl,$font-bold,$white)
+            }
+            p{
+                @include text($text-sm,$font-normal,$white);
+                margin : 16px 0 30px 0;
+
+            }
+            button{
+                @include button($white,$text-sm,$font-semibold,$gray-dark,0,14px 30px , 4px)
+            }
+        }
+    }
+}
+.next {
+    height : 600px ;
+    background-color:red;
+}
