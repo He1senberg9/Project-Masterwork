@@ -1,6 +1,11 @@
 @import "./variable";
+@import "./effectCss";
+
 @import "./mixin";
 @import "./homeBelow";
+@import "./about";
+@import "./blogSingle";
+@import "./contact";
 * {
     margin: 0;
     padding: 0;
