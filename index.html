@@ -45,6 +45,190 @@
     <title>MasterWork</title>
   </head>
   <body>
+    <!-- HEADER -->
+    <header class="header_">
+      <div id="container_id" class="container_">
+        <a href=""><i class="fa fa-handshake"></i> Masterwork</a>
+        <button id="expand_" onclick="expandHeader()">
+          <i class="fa fa-bars"></i>
+        </button>
+        <button id="cancel_" onclick="cancelHeader()">
+          <i class="fa fa-times"></i>
+        </button>
+        <div id="navbar_id" class="navbar_">
+          <a class="nav_" href="#">Home</a>
+          <a class="nav_" href="#">About</a>
+          <a class="nav_" href="#">Service</a>
+          <a
+            class="dropdown-toggle nav_"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            onclick="toggle_dropdown()"
+          >
+            Pages
+          </a>
+          <ul id="drop_menu" class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blog posts</a></li>
+            <li><a class="dropdown-item" href="#">Blog single</a></li>
+            <li><a class="dropdown-item" href="#">Landing Page</a></li>
+          </ul>
+          <a class="nav_" href="#">Contact</a>
+          <button id="nav_button">SCHEDULE A DEMO</button>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- SIDE BAR -->
+    <div class="iconbox_">
+      <a href=""><i class="fas fa-angle-double-right"></i></a>
+    </div>
+    <section class="side_bar_">
+      <hr />
+      <a href="">
+        <i class="fa fa-arrow-left"></i> <br />
+        Back
+      </a>
+      <a href="">
+        <i class="fa fa-download"></i> <br />
+        Download
+      </a>
+      <a href="">
+        <i class="fa fa-shopping-cart"></i> <br />
+        Buy
+      </a>
+    </section>
+    <!-- END SIDE BAR -->
+
+    <!-- CONTENT -->
+    <section class="content_">
+      <div class="container_">
+        <div class="info_">
+          <h1>
+            We Execute Our Ideas<br />
+            From Start to Finish
+          </h1>
+          <p>
+            Building a beautiful interactive business for<br />
+            startups and innovative companies.
+          </p>
+          <button>GET STARTED</button>
+        </div>
+        <div class="image_">
+          <img src="./image/home/main.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END CONTENT -->
+
+    <!-- BUSINESS -->
+    <section class="business_">
+      <div class="container_">
+        <h2>WHY CHOOSE US</h2>
+        <h1>
+          Tools for business startup to <br />
+          professional
+        </h1>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+        <div class="row_">
+          <div class="col_">
+            <div class="item_">
+              <img src="./image/home/s1.png" alt="" />
+              <h1>Interactive</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_">
+              <img src="./image/home/s2.png" alt="" />
+              <h1>Business</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_">
+              <img src="./image/home/s3.png" alt="" />
+              <h1>Inspriration</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BUSINESS -->
+
+    <!-- SHOWCASE -->
+    <div class="showcase_">
+      <div class="container_">
+        <div class="row_above">
+          <div class="info_">
+            <h2>ABOUT OUR COMPANY</h2>
+            <h1>
+              The Best Choice For Your <br />
+              Successful Business!
+            </h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+              repellendus illum harum quam nihil totam reprehenderit! Ut sed
+              eveniet quos! Asperiores officia, repudiandae similique
+              reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+            </p>
+            <button>READ MORE</button>
+          </div>
+          <div class="image_">
+            <img src="./image/home/about.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row_below">
+          <div class="col_">
+            <div class="item_">
+              <h2>Happy Customers</h2>
+              <h1 id="number_1" onclick="countUp()">10458</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_">
+              <h2>Winning Awards</h2>
+              <h1 id="number_2">890</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_">
+              <h2>Completed Projects</h2>
+              <h1 id="number_3">5345</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SHOWCASE -->
+
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- OWL CAROUSEL -->
@@ -74,5 +258,6 @@
     <script>
       new WOW().init();
     </script>
+    <script src="./index.js"></script>
   </body>
 </html>
