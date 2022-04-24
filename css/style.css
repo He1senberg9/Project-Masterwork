@@ -1299,6 +1299,62 @@
   }
 }
 
+.modal_about .modal-header {
+  padding: 2rem;
+}
+
+.modal_about .modal-header h4 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #343a40;
+  margin: 0;
+}
+
+.modal_about .modal-body {
+  padding: 2rem;
+}
+
+.modal_about .modal-body form .button {
+  text-align: right;
+}
+
+.modal_about .modal-body form .button button {
+  background: #dc4f72;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #fff;
+  border: 0;
+  padding: 1rem 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.modal_about .modal-body form .button button:hover {
+  background-color: #d62f58;
+  border-color: #cf2952;
+}
+
+.modal_about .modal-body form input {
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 0;
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  background: #f7f9fc;
+}
+
+.modal_about .modal-body form input:hover {
+  background: #fff;
+  border: 1px solid #dc4f72;
+}
+
 .header_single {
   background-color: #f7f9fc;
 }

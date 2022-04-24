@@ -24,6 +24,7 @@
                 
                 button{
                     @include button($primary, $text-xs, $font-bold, $white, 0, 1rem 30px, 6px);
+                   
                     &:hover{
                         background-color: #d62f58;
                         border-color: #cf2952;

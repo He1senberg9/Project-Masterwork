@@ -448,3 +448,46 @@ a{
     
     }
   }
+  .modal_about{
+      .modal-header{
+        padding : 2rem ;
+
+          h4{
+              @include text($text-xl,$font-bold,$dark);
+              margin :0
+          }
+      }
+      .modal-body{
+          padding : 2rem;
+          form{
+              .button{
+text-align: right;
+                  button{
+                    @include button($primary, $text-xs, $font-bold, $white, 0, 1rem 30px, 6px);
+                    &:hover{
+                        background-color: #d62f58;
+                        border-color: #cf2952;
+                    }
+                  }
+              }
+              input{
+                outline: none;
+                padding: 15px 20px;
+                border-radius: 0;
+                color: #000;
+                font-weight: 600;
+                width: 100%;
+                font-size: 16px;
+                line-height: 26px;
+                margin-bottom: 15px;
+                border-radius: 6px;
+                border: 1px solid #eee;
+                background: #f7f9fc;
+                &:hover{
+                    background: $white;
+                    border :1px solid $primary;
+                }
+              }
+          }
+      }
+  }
