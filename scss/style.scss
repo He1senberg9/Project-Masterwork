@@ -1,14 +1,14 @@
 @import "./variable";
 @import "./effectCss";
-
 @import "./mixin";
-@import "./homeBelow";
-@import "./about";
-@import "./blogSingle";
-@import "./contact";
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
+@import "./homeBelow";
+@import "./about";
+@import "./blogSingle";
+@import "./contact";
