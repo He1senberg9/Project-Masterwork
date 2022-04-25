@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\Cybersoft"
+		},
+		{
+			"path": "..\\..\\..\\json server"
+		},
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\complete-node-bootcamp-master"
+		},
+		{
+			"path": "..\\..\\..\\myreact"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\Meipaly"
+		},
+		{
+			"path": "..\\..\\..\\..\\Downloads\\19-12-2021-09-36-00-baitaphtml5-css3-honda\\BaiTapHTML5-CSS3-Honda"
+		},
+		{
+			"path": "..\\..\\..\\NodeJs"
+		},
+		{
+			"path": "..\\..\\..\\New movie"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Bai tap cybersoft",
+		"editor.formatOnSave": true
+	}
+}

@@ -1,0 +1,153 @@
+.contact_us{
+    padding-bottom: 3rem;
+    h1{
+        text-align: center;
+        margin : 2rem 0 3rem 0;
+        @include text($text-2xl,$font-xbold,$dark);
+    }
+    .item{
+        &:hover{
+            img{
+                transform: translateY(-0.1rem);
+                transition: all 0.4s linear;
+            }
+        }
+        img{
+            width: 100%;
+            border-radius :0.5rem;
+            margin-bottom :50px;
+            transform :translateY(10%);
+        }
+        form{
+            .button{
+                text-align: right;
+                
+                button{
+                    @include button($primary, $text-xs, $font-bold, $white, 0, 1rem 30px, 6px);
+                   
+                    &:hover{
+                        background-color: #d62f58;
+                        border-color: #cf2952;
+                    }
+                }
+            }
+            
+            h2{
+                @include text($text-2xl,$font-bold,$dark)
+            }
+            p{
+                @include text($text-sm,$font-normal,$gray);
+
+            }
+            textarea{
+                height : 150px;
+                max-height : 150px;
+                padding: 15px 20px;
+    outline: none;
+    border-radius: 0;
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    background: #f7f9fc;
+    &:focus{
+        border-color: $primary;
+    }
+            }
+            input{
+                outline: none;
+    padding: 15px 20px;
+    
+    border-radius: 0;
+    color: #000;
+    font-weight: 600;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    background: #f7f9fc;
+    &:focus{
+        background: $white;
+        border : 1px solid $primary;
+    }
+            }
+        }
+        &.item-form{
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.09);
+            border-radius : 6px;
+            
+        }
+    }
+}
+.inTouch{
+    
+    .row{
+        margin :0 -18px;
+        .item{
+            transition: all 0.4s linear;
+            box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 6px;
+    .icon{
+        width: 60px;
+    margin: 0 auto ;
+    height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 60px;
+    background: rgba(220, 79, 114, 0.1);
+    i{
+        font-size:1.6rem;
+        color:$primary;
+    line-height: 60px;
+
+    }
+    }
+    .detail{
+        
+        a{
+            text-decoration:none;
+            display: block;
+            @include text(18px,$font-bold,$gray);
+
+            &:hover{
+                text-decoration: underline;
+                color :$primary;
+            }
+        }
+        h4{
+            @include text($text-base,$font-bold,$dark);
+            margin: 1rem 0;
+        }
+        p{
+            @include text(18px,$font-bold,$gray);
+
+        }
+    }
+        }
+    }
+    text-align: center;
+    padding : 3rem 0;
+    background-color: #f7f9fc;
+    p{
+        @include text($text-sm,$font-bold,$primary);
+        margin :0;
+    }
+    h2{
+        @include text($text-2xl,$font-bold,$dark);
+        
+    }
+    span{
+        display: block;
+        @include text($text-sm,$font-normal,$gray);
+        margin :1rem 0;
+        
+    }
+}
