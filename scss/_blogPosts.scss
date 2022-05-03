@@ -1,0 +1,174 @@
+.blog_carousel_ {
+  padding: 5rem 0 4rem 0;
+  background-color: $light-bg-color;
+  .container_ {
+    padding: 1rem 2rem;
+    .owl-carousel {
+      position: relative;
+      .owl-dots {
+        display: none;
+      }
+      .owl-nav {
+        button {
+          width: 2.5rem;
+          height: 2.5rem;
+          background: rgba(220, 79, 114, 0.4);
+          transition: 0.5s;
+          border-radius: 50%;
+          color: white;
+          font-size: 2rem;
+          &:hover {
+            background: $primary;
+          }
+        }
+        .owl-prev {
+          position: absolute;
+          top: 50%;
+          left: 5px;
+          transform: translateY(-50%);
+          span {
+            position: relative;
+            top: -6px;
+            left: -1px;
+          }
+        }
+        .owl-next {
+          position: absolute;
+          top: 50%;
+          right: 5px;
+          transform: translateY(-50%);
+          span {
+            position: relative;
+            top: -6px;
+            left: 1px;
+          }
+        }
+      }
+      .item_ {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #fff;
+        &.slide_1_ {
+          span {
+            @include text($text-xs, $font-semibold, #008000);
+            background: rgba(0, 128, 0, 0.2);
+          }
+        }
+        &.slide_2_ {
+          span {
+            @include text($text-xs, $font-semibold, #0000ff);
+            background: rgba(0, 0, 255, 0.2);
+          }
+        }
+        &.slide_3_ {
+          span {
+            @include text($text-xs, $font-semibold, $primary);
+            background: rgba(238, 97, 120, 0.2);
+          }
+        }
+        &:hover {
+          .info_ a i {
+            transform: translateX(5px);
+          }
+        }
+        .image_ {
+          width: 50%;
+          position: relative;
+          cursor: pointer;
+          @media screen and (max-width:992px){
+            width: 100%;
+          }
+          img {
+            width: 100%;
+            height: auto;
+          }
+          .calendar_ {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 8rem;
+            height: 3.5rem;
+            background-color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+              @include text(18px, $font-bold, white);
+              margin: 0;
+            }
+          }
+        }
+        .info_ {
+          width: 50%;
+          padding: 2rem;
+          animation: fadeInLeft;
+          animation-duration: 1s;
+          @media screen and (max-width:992px){
+            width: 100%;
+          }
+          span {
+            display: inline-block;
+            border-radius: 2rem;
+            padding: 0.3rem 1rem;
+          }
+          h1 {
+            @include text($text-lg, $font-semibold, $title-color);
+            margin: 1.5rem 0;
+            cursor: pointer;
+            &:hover {
+              color: $primary;
+            }
+          }
+          p {
+            @include text($text-sm, $font-light, $text-color);
+          }
+          a {
+            @include text($text-sm, $font-light, $primary);
+            text-decoration: none;
+          }
+          i {
+            font-size: 0.7rem;
+            transition: 1s;
+          }
+        }
+      }
+    }
+  }
+}
+.solutions {
+  .container {
+    ul {
+      li {
+        cursor: pointer;
+        margin: 0 0.4rem;
+        &.active {
+          a {
+            border: 1px solid $primary;
+            color: $primary;
+            background-color: #fff;
+          }
+        }
+        &:hover {
+          a {
+            border: 1px solid $primary;
+            color: $primary;
+            background-color: #fff;
+          }
+        }
+        a {
+          border: 1px solid transparent;
+          color: black;
+          box-shadow: 1px 5px 7.5px rgba(196, 196, 196, 0.2);
+          border-radius: 7px;
+
+          i {
+            font-size: 10px;
+            position: relative;
+            top: -1px;
+          }
+        }
+      }
+    }
+  }
+}

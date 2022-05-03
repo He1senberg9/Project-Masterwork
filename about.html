@@ -45,6 +45,61 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
+    <!-- HEADER -->
+    <header class="header_ animate__animated animate__fadeInLeft wow">
+      <div id="container_id" class="container_">
+        <a href="./index.html"><i class="fa fa-handshake"></i> Masterwork</a>
+        <button id="expand_" onclick="expandHeader()">
+          <i class="fa fa-bars"></i>
+        </button>
+        <button id="cancel_" onclick="cancelHeader()">
+          <i class="fa fa-times"></i>
+        </button>
+        <div id="navbar_id" class="navbar_">
+          <a class="nav_" href="./index.html">Home</a>
+          <a class="nav_" href="./about.html"   style="color: #dc4f72;">About</a>
+          <a class="nav_" href="./services.html">Service</a>
+          <a
+            class="dropdown-toggle nav_"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            onclick="toggle_dropdown()"
+          >
+            Pages
+          </a>
+          <ul id="drop_menu" class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blogPosts.html">Blog posts</a></li>
+            <li><a class="dropdown-item" href="./blogSingle.html">Blog single</a></li>
+            <li><a class="dropdown-item" href="./landingPage.html">Landing Page</a></li>
+          </ul>
+          <a class="nav_" href="./contact.html">Contact</a>
+          <button id="nav_button">SCHEDULE A DEMO</button>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+  
+      <!-- SIDE BAR -->
+      <div class="iconbox_ animate__animated animate__fadeInLeft wow">
+        <a href=""><i class="fas fa-angle-double-right"></i></a>
+      </div>
+      <section class="side_bar_ animate__animated animate__fadeInLeft wow">
+        <hr />
+        <a href="">
+          <i class="fa fa-arrow-left"></i> <br />
+          Back
+        </a>
+        <a href="">
+          <i class="fa fa-download"></i> <br />
+          Download
+        </a>
+        <a href="">
+          <i class="fa fa-shopping-cart"></i> <br />
+          Buy
+        </a>
+      </section>
+      <!-- END SIDE BAR -->
     <!-- Header -->
     <section class="header_about">
         <div class="container">
@@ -539,5 +594,6 @@ $('.back-to-top').fadeOut(duration);
     <script>
       new WOW().init();
     </script>
+        <script src="./index.js"></script>
 </body>
 </html>

@@ -1,254 +1,340 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-     <!-- OWL CAROUSEL -->
-     <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-   />
-   <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
-   />
-   <!-- GOOGLE FONTS -->
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-   <link
-     href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap"
-     rel="stylesheet"
-   />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
-   <!-- FONT-AWESOME -->
-   <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-   />
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
 
-   <!-- ANIMATION -->
-   <link
-     rel="stylesheet"
-     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-   />
+    <!-- ANIMATION -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-   <!-- BOOTSTRAP -->
-   <link
-     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-     rel="stylesheet"
-   />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-   <!-- STYLE -->
-   <link rel="stylesheet" href="./css/style.css" />
-</head>
-<body>
-    <section class="header_about">
-        <div class="container">
-
-            <a class="active" href="#">Home</a>
-            <a href="">
-                <i class="fa fa-angle-double-right"></i>
-                Contact
-            </a>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header_ animate__animated animate__fadeInLeft wow">
+      <div id="container_id" class="container_">
+        <a href="./index.html"><i class="fa fa-handshake"></i> Masterwork</a>
+        <button id="expand_" onclick="expandHeader()">
+          <i class="fa fa-bars"></i>
+        </button>
+        <button id="cancel_" onclick="cancelHeader()">
+          <i class="fa fa-times"></i>
+        </button>
+        <div id="navbar_id" class="navbar_">
+          <a class="nav_" href="./index.html">Home</a>
+          <a class="nav_" href="./about.html">About</a>
+          <a class="nav_" href="./services.html">Service</a>
+          <a
+            class="dropdown-toggle nav_"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            onclick="toggle_dropdown()"
+          >
+            Pages
+          </a>
+          <ul id="drop_menu" class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blogPosts.html">Blog posts</a></li>
+            <li><a class="dropdown-item" href="./blogSingle.html">Blog single</a></li>
+            <li><a class="dropdown-item" href="./landingPage.html">Landing Page</a></li>
+          </ul>
+          <a class="nav_" href="./contact.html" style="color: #dc4f72;">Contact</a>
+          <button id="nav_button">SCHEDULE A DEMO</button>
         </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- SIDE BAR -->
+    <div class="iconbox_ animate__animated animate__fadeInLeft wow">
+      <a href=""><i class="fas fa-angle-double-right"></i></a>
+    </div>
+    <section class="side_bar_ animate__animated animate__fadeInLeft wow">
+      <hr />
+      <a href="">
+        <i class="fa fa-arrow-left"></i> <br />
+        Back
+      </a>
+      <a href="">
+        <i class="fa fa-download"></i> <br />
+        Download
+      </a>
+      <a href="">
+        <i class="fa fa-shopping-cart"></i> <br />
+        Buy
+      </a>
+    </section>
+    <!-- END SIDE BAR -->
+    <section class="header_about">
+      <div class="container">
+        <a class="active" href="#">Home</a>
+        <a href="">
+          <i class="fa fa-angle-double-right"></i>
+          Contact
+        </a>
+      </div>
     </section>
 
     <!-- Contact -->
     <section class="contact_us">
-       <div class="container">
+      <div class="container">
         <h1 class="animate__animated wow animate__bounceInRight">Contact Us</h1>
         <div class="row g-0">
-            <div class="col-lg-6 animate__animated wow animate__zoomIn">
-                <div class="item " >
-                    <img src="./image/contact/contact.jpg" alt="">
-                </div>
+          <div class="col-lg-6 animate__animated wow animate__zoomIn">
+            <div class="item">
+              <img src="./image/contact/contact.jpg" alt="" />
             </div>
-            <div class="col-lg-6 animate__animated wow animate__zoomIn">
-                <div class="item item-form p-4">
-                    <form action="">
-                        <h2 class="animate__animated  animate__zoomIn wow">Drop us a Message</h2>
-                        <p class="animate__animated  animate__zoomIn wow">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices turpis sodales quis. Integer sit amet mattis quam.</p>
-                        <input type="text" placeholder="Enter your name">
-                        <input type="email" placeholder="Enter your mail">
-                        <input type="text" placeholder="Subject ">
-                        <textarea placeholder="Enter your message"></textarea>
-                        <div class="button">
-
-                            <button type="submit" >SEND</button>
-                        </div>
-                    </form>
+          </div>
+          <div class="col-lg-6 animate__animated wow animate__zoomIn">
+            <div class="item item-form p-4">
+              <form action="">
+                <h2 class="animate__animated animate__zoomIn wow">
+                  Drop us a Message
+                </h2>
+                <p class="animate__animated animate__zoomIn wow">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices turpis sodales quis. Integer sit amet mattis quam.
+                </p>
+                <input type="text" placeholder="Enter your name" />
+                <input type="email" placeholder="Enter your mail" />
+                <input type="text" placeholder="Subject " />
+                <textarea placeholder="Enter your message"></textarea>
+                <div class="button">
+                  <button type="submit">SEND</button>
                 </div>
+              </form>
             </div>
+          </div>
         </div>
-       </div>
+      </div>
     </section>
-   
+
     <!-- Intouch -->
     <section class="inTouch">
-        <div class="container">
-            <p class="animate__animated  animate__bounceInUp wow">GET IN TOUCH</p>
-            <h2 class="animate__animated  animate__bounceInUp wow">We’re here to help</h2>
-            <span class="animate__animated  animate__bounceInUp wow"style=display:block>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus <br> nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</span>
-            <div class="row mt-5">
-                <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
-                    <div class="item float-css ">
-                        <div class="icon">
-                            <i class="fa-solid fa-location-arrow"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Our head office address:</h4>
-                            <p>8th-block road, cross avenue, <br>Lorem dolor sit, New York, USA</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
-                    <div class="item float-css ">
-                        <div class="icon">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Call for help:</h4>
-                            <a href="#">+040-123-456-88</a>
-                            <a href="#">+040-123-456-89</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
-                    <div class="item float-css">
-                        <div class="icon">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-                        <div class="detail">
-                            <h4>Mail Us for information:</h4>
-                            <a href="#">info@masterwork.com</a>
-                            <a href="#">masterwork@support.com</a>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <p class="animate__animated animate__bounceInUp wow">GET IN TOUCH</p>
+        <h2 class="animate__animated animate__bounceInUp wow">
+          We’re here to help
+        </h2>
+        <span
+          class="animate__animated animate__bounceInUp wow"
+          style="display: block"
+          >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+          quam.</span
+        >
+        <div class="row mt-5">
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <div class="detail">
+                <h4>Our head office address:</h4>
+                <p>
+                  8th-block road, cross avenue, <br />Lorem dolor sit, New York,
+                  USA
+                </p>
+              </div>
             </div>
-           
+          </div>
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="detail">
+                <h4>Call for help:</h4>
+                <a href="#">+040-123-456-88</a>
+                <a href="#">+040-123-456-89</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="detail">
+                <h4>Mail Us for information:</h4>
+                <a href="#">info@masterwork.com</a>
+                <a href="#">masterwork@support.com</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="gg-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.850793860039!2d105.81096611476264!3d20.998617286014685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9096f4d45b%3A0x6996f140129a7453!2zMTkwIMSQLiBOZ3V54buFbiBUcsOjaSwgVGhhbmggWHXDom4gVHJ1bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1650472139702!5m2!1svi!2s" width="600" height="450" style="border:0;width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-
-        
+      </div>
+      <div class="gg-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.850793860039!2d105.81096611476264!3d20.998617286014685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9096f4d45b%3A0x6996f140129a7453!2zMTkwIMSQLiBOZ3V54buFbiBUcsOjaSwgVGhhbmggWHXDom4gVHJ1bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1650472139702!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0; width: 100%"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </section>
 
     <section class="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="item">
-                <h3>Company</h3>
-                <a href="">Home</a>
-                <a href="">About Us</a>
-                <a href="">Services</a>
-                <a href="">Blog </a>
-                <a href="">Contact</a>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="item">
-                <h3>Useful Links</h3>
-                <a href="">Case Studies</a>
-                <a href="">Our Branches</a>
-                <a href="">Latest Media</a>
-                <a href="">About Company </a>
-                <a href="">Our People</a>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="item">
-                <h3>Our Services</h3>
-                <a href="">Privacy Policy</a>
-                <a href="">Our Terms</a>
-                <a href="">Services</a>
-                <a href="">Landing Page</a>
-                <a href="">Our People</a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="item">
-                <h3>Newsletter</h3>
-                <div class="form">
-                  <form action="">
-                    <p>Get latest updates and offers.</p>
-                   <div class="input-group">
-                    <input type="text" name="" id="" placeholder="Email Address">
-                    <a href="#">Go</a>
-                   </div>
-                    <span>Sign up for our latest news & articles. We won’t give you spam <br> mails.</span>
-                  </form>
-                </div>
-              </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Company</h3>
+              <a href="">Home</a>
+              <a href="">About Us</a>
+              <a href="">Services</a>
+              <a href="">Blog </a>
+              <a href="">Contact</a>
             </div>
           </div>
-          <div class="end">
-            <p> 
-              <i class="fa-solid fa-copyright"></i>
-              2020 Masterwork. All rights reserved | Designed by W3Layouts</p>
-              <div class="icon">
-                <a href="#">
-                  <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-google-plus-g"></i>
-                </a>
-                <a href="#">
-                  <i class="fa-brands fa-github"></i>
-                </a>
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Useful Links</h3>
+              <a href="">Case Studies</a>
+              <a href="">Our Branches</a>
+              <a href="">Latest Media</a>
+              <a href="">About Company </a>
+              <a href="">Our People</a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Our Services</h3>
+              <a href="">Privacy Policy</a>
+              <a href="">Our Terms</a>
+              <a href="">Services</a>
+              <a href="">Landing Page</a>
+              <a href="">Our People</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item">
+              <h3>Newsletter</h3>
+              <div class="form">
+                <form action="">
+                  <p>Get latest updates and offers.</p>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Email Address"
+                    />
+                    <a href="#">Go</a>
+                  </div>
+                  <span
+                    >Sign up for our latest news & articles. We won’t give you
+                    spam <br />
+                    mails.</span
+                  >
+                </form>
               </div>
+            </div>
           </div>
         </div>
-      </section>
-     <!-- JQUERY -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-     <!-- OWL CAROUSEL -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-     <script>
-       $(".owl-carousel").owlCarousel({
-         loop: true,
-         margin: 10,
-         nav: true,
-         responsive: {
-           0: {
-             items: 1,
-           },
-           600: {
-             items: 1,
-           },
-           1000: {
-             items: 2,
-           },
-         },
-       });
-     </script>
+        <div class="end">
+          <p>
+            <i class="fa-solid fa-copyright"></i>
+            2020 Masterwork. All rights reserved | Designed by W3Layouts
+          </p>
+          <div class="icon">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
     <script>
       var offset = 500;
- // thời gian di trượt 0.75s ( 1000 = 1s )
- var duration = 750;
- $(function(){
- $(window).scroll(function () {
- if ($(this).scrollTop() > offset)
- $('.back-to-top').fadeIn(duration);else
- $('.back-to-top').fadeOut(duration);
- });})
+      // thời gian di trượt 0.75s ( 1000 = 1s )
+      var duration = 750;
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > offset) $(".back-to-top").fadeIn(duration);
+          else $(".back-to-top").fadeOut(duration);
+        });
+      });
     </script>
-     <!-- BOOTSTRAP -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-     <!-- WOW -->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-     <script>
-       new WOW().init();
-     </script>
-</body>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+        <script src="./index.js"></script>
+  </body>
 </html>

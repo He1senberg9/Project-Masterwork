@@ -32,11 +32,3 @@ function toggle_dropdown() {
   getById("drop_menu").classList.toggle("show_dropdown");
 }
 
-function countUp() {
-  var i = 0;
-  var element = getById("number_1");
-  for (var i = 0; i <= peakNum; i++) {
-    element.innerText = i;
-    setTimeout(function(){},1000);
-  }
-}

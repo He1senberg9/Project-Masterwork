@@ -4,7 +4,7 @@
 }
 // HEADER
 .header_ {
-  z-index: 2;
+  z-index: 4;
   position: sticky;
   top: 0;
   left: 0;
@@ -85,9 +85,6 @@
           &.show_margin {
             margin-top: 1.5rem;
           }
-        }
-        &:first-child {
-          color: $primary;
         }
         &::before {
           width: 0;
@@ -363,7 +360,7 @@
   .row_above {
     display: flex;
     flex-wrap: wrap;
-    padding: 2rem;
+    padding: 2rem 0;
 
     .info_,
     .image_ {
@@ -374,6 +371,7 @@
       }
     }
     .info_ {
+      padding-right: 5rem;
       h2 {
         @include text($text-sm, $font-bold, $primary);
       }

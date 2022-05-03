@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
-      integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <!-- OWL CAROUSEL -->
     <link
       rel="stylesheet"
@@ -52,7 +44,6 @@
     <title>MasterWork</title>
   </head>
   <body>
-    <!-- Home-above -->
     <!-- HEADER -->
     <header class="header_ animate__animated animate__fadeInLeft wow">
       <div id="container_id" class="container_">
@@ -64,7 +55,7 @@
           <i class="fa fa-times"></i>
         </button>
         <div id="navbar_id" class="navbar_">
-          <a class="nav_" href="./index.html" style="color: #dc4f72;">Home</a>
+          <a class="nav_" href="./index.html">Home</a>
           <a class="nav_" href="./about.html">About</a>
           <a class="nav_" href="./services.html">Service</a>
           <a
@@ -73,13 +64,14 @@
             id="navbarDropdown"
             role="button"
             onclick="toggle_dropdown()"
+            style="color: #dc4f72;"
           >
             Pages
           </a>
           <ul id="drop_menu" class="dropdown-menu">
             <li><a class="dropdown-item" href="./blogPosts.html">Blog posts</a></li>
             <li><a class="dropdown-item" href="./blogSingle.html">Blog single</a></li>
-            <li><a class="dropdown-item" href="./landingPage.html">Landing Page</a></li>
+            <li><a class="dropdown-item" href="./landingPage.html" style="color: #dc4f72;">Landing Page</a></li>
           </ul>
           <a class="nav_" href="./contact.html">Contact</a>
           <button id="nav_button">SCHEDULE A DEMO</button>
@@ -108,7 +100,15 @@
       </a>
     </section>
     <!-- END SIDE BAR -->
-
+    <section class="header_about">
+      <div class="container">
+        <a class="active" href="#">Home</a>
+        <a href="">
+          <i class="fa fa-angle-double-right"></i>
+          Landing Page
+        </a>
+      </div>
+    </section>
     <!-- CONTENT -->
     <section class="content_">
       <div class="container_">
@@ -129,56 +129,80 @@
       </div>
     </section>
     <!-- END CONTENT -->
-
-    <!-- BUSINESS -->
-    <section class="business_">
-      <div class="container_">
-        <h2>WHY CHOOSE US</h2>
-        <h1>
-          Tools for business startup to <br />
-          professional
-        </h1>
-        <p>
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Nulla mollis dapibus <br />
-          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
-        </p>
-        <div class="row_">
-          <div class="col_">
-            <div class="item_ animate__animated animate__fadeInLeft wow">
-              <img src="./image/home/s1.png" alt="" />
-              <h1>Interactive</h1>
+    <!-- ABOUT US -->
+    <section class="aboutUs_about">
+      <div class="container">
+        <h1 class="animate__animated animate__bounceInUp">About Us</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="item animate__animated animate__bounceInUp">
+              <h2>The Best Choice For Your Successful Business!</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium tempora rerum perspiciatis?
+                Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Website Designing and Development
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Android and iOs Apps Development
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Successfully Providing Business Solution from 20 years
+                </li>
+                <li>
+                  <i class="fa-solid fa-check"></i>
+                  Excellence Records
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 animate__animated animate__bounceInUp">
+            <div class="item item-img float-css">
+              <img src="./image/blog single/b5.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="item animate__animated animate__bounceInUp wow">
+              <h3>Our History 1795</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
-          <div class="col_">
-            <div class="item_ animate__animated animate__fadeInUp wow">
-              <img src="./image/home/s2.png" alt="" />
-              <h1>Business</h1>
+          <div class="col-lg-4 col-md-6">
+            <div class="item animate__animated animate__bounceInUp wow">
+              <h3>The power of business</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium tempora rerum perspiciatis?
+                Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
-          <div class="col_">
-            <div class="item_ animate__animated animate__fadeInRight wow">
-              <img src="./image/home/s3.png" alt="" />
-              <h1>Inspriration</h1>
+          <div class="col-lg-4 col-md-6">
+            <div class="item animate__animated animate__bounceInUp wow">
+              <h3>120 Customer service</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium tempora rerum perspiciatis?
+                Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud.
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- END BUSINESS -->
-
+    <!-- END ABOUT US -->
     <!-- SHOWCASE -->
     <div class="showcase_">
       <div class="container_">
@@ -201,65 +225,171 @@
             <img src="./image/home/about.jpg" alt="" />
           </div>
         </div>
-        <div class="row_below">
-          <div class="col_">
-            <div class="item_ animate__animated animate__zoomIn wow">
-              <h2>Happy Customers</h2>
-              <h1 id="number_1" onclick="countUp()">10458</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-                atque sed.
-              </p>
+      </div>
+    </div>
+    <!-- END SHOWCASE -->
+    <!-- OURS SERVICES -->
+    <section class="our_services_">
+      <h1>Our Services</h1>
+      <div class="container_">
+        <div class="left_ animate__animated animate__fadeInLeft wow">
+          <h1>Our Best Services</h1>
+          <h2>
+            Fusce fringilla tincidunt laoreet volutpat cras varius sit. metus
+            vitae diam mauris.
+          </h2>
+          <p>
+            Sed in metus libero. Sed volutpat eget dui ut tempus. Fusce
+            fringilla tincidunt laoreet Morbi ac metus vitae diam scelerisque
+            malesuada eget eu mauris. Cras varius lorem ac velit pharetra, non
+            scelerisque mi vulputate. Phasellus bibendum.
+          </p>
+          <button>LEARN MORE</button>
+        </div>
+        <div class="right_ animate__animated animate__zoomIn wow">
+          <div class="right_item_">
+            <div class="image_">
+              <img src="./image/home/s3.png" alt="" />
+            </div>
+            <h1>Concept & Strategy</h1>
+            <p>Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!</p>
+          </div>
+          <div class="right_item_">
+            <div class="image_">
+              <img src="./image/home/s1.png" alt="" />
+            </div>
+            <h1>Interactive Business</h1>
+            <p>Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!</p>
+          </div>
+          <div class="right_item_">
+            <div class="image_">
+              <img src="./image/home/s2.png" alt="" />
+            </div>
+            <h1>Financial Institution</h1>
+            <p>Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!</p>
+          </div>
+          <div class="right_item_">
+            <div class="image_">
+              <img src="./image/home/s3.png" alt="" />
+            </div>
+            <h1>Worldwide Access</h1>
+            <p>Lorem ipsum dolor sit amet consectetur elit. Inventore, eius!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END OURS SERVICES -->
+    <!-- STRATEGY_BUSINESS -->
+    <section class="strategy_business_">
+      <div class="container_">
+        <div class="title_">
+          <h2>THE BEST PRODUCTS</h2>
+          <h1>How we make your strategy business</h1>
+          <p>
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis
+            sodales quis. Integer sit amet mattis quam.
+          </p>
+        </div>
+        <div class="row_">
+          <div class="col_ animate__animated animate__fadeInLeft wow">
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>1</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>FULL SECURITY</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>2</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>BEST PERFORMANCE</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>3</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>CONCEPT & STRATEGY</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
             </div>
           </div>
-          <div class="col_">
-            <div class="item_ animate__animated animate__zoomIn wow">
-              <h2>Winning Awards</h2>
-              <h1 id="number_2">890</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-                atque sed.
-              </p>
+          <div class="col_ animate__animated animate__fadeInUp wow">
+            <div class="image_">
+              <img src="./image/service/service-circle.jpg" alt="" />
             </div>
           </div>
-          <div class="col_">
-            <div class="item_ animate__animated animate__zoomIn wow">
-              <h2>Completed Projects</h2>
-              <h1 id="number_3">5345</h1>
-              <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-                atque sed.
-              </p>
+          <div class="col_ animate__animated animate__fadeInRight wow">
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>4</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>WORLDWIDE ACCESS</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>5</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>INTERACTIVE BUSINESS</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
+            </div>
+            <div class="item_">
+              <div class="num_">
+                <div class="num_icon_">
+                  <span>6</span>
+                </div>
+              </div>
+              <div class="info_">
+                <h1>EMAILING</h1>
+                <p>
+                  Lorem ipsum dolor sit amet,Ea sed illum facere aperiam sequi
+                  optio consectetur adipisicing elit.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- END SHOWCASE -->
-
-    <!-- Home-below -->
-    <!-- Ourselves -->
-    <section class="ourselves">
-      <header class="title">
-        <div class="container">
-          <div class="middle-section">
-            <h1>
-              We are true to ourselves, and commit to always perform at our
-              best.
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, doloribus atque. Corrupti exercitationem
-              voluptatem ipsum iste consequuntur et vitae voluptas temporibus?
-              Maxime dolores amet voluptatum illo consequatur placeat fugit
-              ducimus.
-            </p>
-            <button>Read More</button>
-          </div>
-        </div>
-      </header>
     </section>
-    <!-- Solutions -->
+    <!-- END STRATEGY_BUSINESS -->
+    <!-- SOLUTIONS -->
     <section class="solutions">
       <div class="container">
         <p class="animate__animated animate__backInUp">WE ARE HERE FOR YOU</p>
@@ -354,8 +484,9 @@
         </div>
       </div>
     </section>
-    <!-- General -->
-    <section class="general">
+    <!-- END SOLUTIONS -->
+    <!-- GENERAL -->
+    <section class="general pb-0">
       <div class="container">
         <p class="animate__animated animate__backInUp wow">
           QUESTIONS AND ANSWERS
@@ -539,6 +670,67 @@
         </div>
       </div>
     </section>
+    <!-- END GENERAL -->
+    <!-- SHOWCASE 2 -->
+    <div class="showcase_ pt-1">
+      <div class="container_">
+        <div class="row_below">
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Happy Customers</h2>
+              <h1 id="number_1" onclick="countUp()">10458</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Winning Awards</h2>
+              <h1 id="number_2">890</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Completed Projects</h2>
+              <h1 id="number_3">5345</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SHOWCASE 2-->
+    <!-- Ourselves -->
+    <section class="ourselves">
+      <header class="title">
+        <div class="container">
+          <div class="middle-section">
+            <h1>
+              We are true to ourselves, and commit to always perform at our
+              best.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, doloribus atque. Corrupti exercitationem
+              voluptatem ipsum iste consequuntur et vitae voluptas temporibus?
+              Maxime dolores amet voluptatum illo consequatur placeat fugit
+              ducimus.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- COMPLETED -->
     <section class="completed">
       <div class="container">
         <header>
@@ -766,8 +958,8 @@
         </div>
       </div>
     </section>
-
-    <!-- Clients -->
+    <!-- END COMPLETED -->
+    <!-- CLIENTS -->
     <section class="clients">
       <div class="container">
         <header>
@@ -852,31 +1044,111 @@
         </main>
       </div>
     </section>
-
-    <!-- Community -->
-    <section class="community">
+    <!-- END CLIENTS -->
+    <!-- CONTACT -->
+    <section class="contact_us">
       <div class="container">
-        <h1 class="animate__animated animate__fadeInUp wow">
-          Ready to build your own brand <br />
-          community?
-        </h1>
-        <p class="animate__animated animate__fadeInUp wow">
-          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-          posuere cubilia Curae; Nulla mollis dapibus <br />
-          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
-        </p>
-        <a class="animate__animated animate__fadeInUp wow" href=""
-          >BOOK A DEMO</a
-        >
-        <a
-          class="button-primary animate__animated animate__fadeInUp wow"
-          href=""
-          >GET STARTED</a
-        >
+        <h1 class="animate__animated wow animate__bounceInRight">Contact Us</h1>
+        <div class="row g-0">
+          <div class="col-lg-6 animate__animated wow animate__zoomIn">
+            <div class="item">
+              <img src="./image/contact/contact.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6 animate__animated wow animate__zoomIn">
+            <div class="item item-form p-4">
+              <form action="">
+                <h2 class="animate__animated animate__zoomIn wow">
+                  Drop us a Message
+                </h2>
+                <p class="animate__animated animate__zoomIn wow">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices turpis sodales quis. Integer sit amet mattis quam.
+                </p>
+                <input type="text" placeholder="Enter your name" />
+                <input type="email" placeholder="Enter your mail" />
+                <input type="text" placeholder="Subject " />
+                <textarea placeholder="Enter your message"></textarea>
+                <div class="button">
+                  <button type="submit">SEND</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
-
-    <!-- Footer -->
+    <!-- END CONTACT -->
+    <!-- INTOUCH -->
+    <section class="inTouch">
+      <div class="container">
+        <p class="animate__animated animate__bounceInUp wow">GET IN TOUCH</p>
+        <h2 class="animate__animated animate__bounceInUp wow">
+          We’re here to help
+        </h2>
+        <span
+          class="animate__animated animate__bounceInUp wow"
+          style="display: block"
+          >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+          quam.</span
+        >
+        <div class="row mt-5">
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-location-arrow"></i>
+              </div>
+              <div class="detail">
+                <h4>Our head office address:</h4>
+                <p>
+                  8th-block road, cross avenue, <br />Lorem dolor sit, New York,
+                  USA
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="detail">
+                <h4>Call for help:</h4>
+                <a href="#">+040-123-456-88</a>
+                <a href="#">+040-123-456-89</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 px-4 animate__animated wow animate__zoomIn">
+            <div class="item float-css">
+              <div class="icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="detail">
+                <h4>Mail Us for information:</h4>
+                <a href="#">info@masterwork.com</a>
+                <a href="#">masterwork@support.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gg-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.850793860039!2d105.81096611476264!3d20.998617286014685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac9096f4d45b%3A0x6996f140129a7453!2zMTkwIMSQLiBOZ3V54buFbiBUcsOjaSwgVGhhbmggWHXDom4gVHJ1bmcsIFRoYW5oIFh1w6JuLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1650472139702!5m2!1svi!2s"
+          width="600"
+          height="450"
+          style="border: 0; width: 100%"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- END INTOUCH -->
+    <!-- FOOTER -->
     <section class="footer animate__animated animate__fadeInUp wow">
       <div class="container">
         <div class="row">
@@ -960,10 +1232,7 @@
         </div>
       </div>
     </section>
-    <a href="#" class="back-to-top">
-      <i class="fa fa-angle-up"></i>
-    </a>
-
+    <!-- END FOOTER -->
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!-- OWL CAROUSEL -->
@@ -981,20 +1250,9 @@
             items: 1,
           },
           1000: {
-            items: 2,
+            items: 1,
           },
         },
-      });
-    </script>
-    <script>
-      var offset = 500;
-      // thời gian di trượt 0.75s ( 1000 = 1s )
-      var duration = 750;
-      $(function () {
-        $(window).scroll(function () {
-          if ($(this).scrollTop() > offset) $(".back-to-top").fadeIn(duration);
-          else $(".back-to-top").fadeOut(duration);
-        });
       });
     </script>
     <!-- BOOTSTRAP -->
