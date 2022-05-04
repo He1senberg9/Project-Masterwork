@@ -56,6 +56,7 @@
     }
     #expand_ {
       z-index: 3;
+      border : none;
     }
     #cancel_ {
       font-size: $text-xl;
@@ -171,6 +172,7 @@
   height: 21rem;
   padding: 2rem 0;
   border-radius: 0 0 0 1rem;
+  z-index:10;
   hr {
     width: 85%;
     height: 1px;
@@ -403,6 +405,7 @@
         border-radius: 5px;
         box-shadow: 0 0.5rem 1rem #00000026;
         transition: 0.5s;
+        width: 100%;
 
         &:hover {
           transform: translateY(-0.5rem);
