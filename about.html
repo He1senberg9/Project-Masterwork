@@ -44,7 +44,7 @@
     <!-- STYLE -->
     <link rel="stylesheet" href="./css/style.css" />
 </head>
-<body>
+<body id="body">
     <!-- HEADER -->
     <header class="header_ animate__animated animate__fadeInLeft wow">
       <div id="container_id" class="container_">
@@ -98,6 +98,10 @@
           <i class="fa fa-shopping-cart"></i> <br />
           Buy
         </a>
+        <div class="form-check form-switch" id="toggleButton">
+          <input class="form-check-input" type="checkbox" onclick="toggle()" id="flexSwitchCheckDefault">
+         
+        </div>
       </section>
       <!-- END SIDE BAR -->
     <!-- Header -->
@@ -611,5 +615,6 @@ $('.back-to-top').fadeOut(duration);
       new WOW().init();
     </script>
         <script src="./index.js"></script>
+        <script src="../toggle.js"></script>
 </body>
 </html>

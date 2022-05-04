@@ -51,7 +51,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <title>MasterWork</title>
   </head>
-  <body>
+  <body id="body">
     <!-- Home-above -->
     <!-- HEADER -->
     <header class="header_ animate__animated animate__fadeInLeft wow">
@@ -106,11 +106,15 @@
         <i class="fa fa-shopping-cart"></i> <br />
         Buy
       </a>
+      <div class="form-check form-switch" id="toggleButton">
+        <input class="form-check-input" type="checkbox" onclick="toggle()" id="flexSwitchCheckDefault">
+       
+      </div>
     </section>
     <!-- END SIDE BAR -->
 
     <!-- CONTENT -->
-    <section class="content_">
+    <section class="content_ " >
       <div class="container_">
         <div class="info_ animate__animated animate__fadeInUp wow">
           <h1>
@@ -131,7 +135,7 @@
     <!-- END CONTENT -->
 
     <!-- BUSINESS -->
-    <section class="business_">
+    <section  class="business_  ">
       <div class="container_">
         <h2>WHY CHOOSE US</h2>
         <h1>
@@ -180,7 +184,7 @@
     <!-- END BUSINESS -->
 
     <!-- SHOWCASE -->
-    <div class="showcase_">
+    <div class="showcase_ ">
       <div class="container_">
         <div class="row_above animate__animated animate__fadeInUp wow">
           <div class="info_">
@@ -260,7 +264,7 @@
       </header>
     </section>
     <!-- Solutions -->
-    <section class="solutions">
+    <section class="solutions ">
       <div class="container">
         <p class="animate__animated animate__backInUp">WE ARE HERE FOR YOU</p>
         <h1 class="animate__animated animate__backInUp">Explore Solutions</h1>
@@ -355,7 +359,7 @@
       </div>
     </section>
     <!-- General -->
-    <section class="general">
+    <section class="general ">
       <div class="container">
         <p class="animate__animated animate__backInUp wow">
           QUESTIONS AND ANSWERS
@@ -539,7 +543,7 @@
         </div>
       </div>
     </section>
-    <section class="completed">
+    <section class="completed ">
       <div class="container">
         <header>
           <p class="animate__animated animate__backInUp wow">FEATURED CASES</p>
@@ -854,7 +858,7 @@
     </section>
 
     <!-- Community -->
-    <section class="community">
+    <section class="community ">
       <div class="container">
         <h1 class="animate__animated animate__fadeInUp wow">
           Ready to build your own brand <br />
@@ -877,7 +881,7 @@
     </section>
 
     <!-- Footer -->
-    <section class="footer animate__animated animate__fadeInUp wow">
+    <section class="footer animate__animated animate__fadeInUp wow ">
       <div class="container">
         <div class="row">
           <div class="col-md-2">
@@ -1005,5 +1009,6 @@
       new WOW().init();
     </script>
     <script src="./index.js"></script>
+    <script src="../toggle.js"></script>
   </body>
 </html>

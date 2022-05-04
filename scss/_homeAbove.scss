@@ -1,3 +1,4 @@
+
 .container_ {
   max-width: 1200px;
   margin: 0 auto;
@@ -159,12 +160,18 @@
   }
 }
 .side_bar_ {
+  #toggleButton{
+    position: absolute;
+    bottom: 5%;
+    left: 34%;
+  }
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
   position: fixed;
+  
   right: 0;
   top: 5rem;
   background-color: #0d1326;
@@ -352,11 +359,21 @@
       }
     }
   }
+  &.dark{
+    h1{
+      color:$white
+    }
+    p{
+      color:$white
+
+    }
+  }
 }
 // END BUSINESS
 
 // SHOWCASE
 .showcase_ {
+ 
   background-color: $light-bg-color;
   padding: 5rem 0;
   .row_above {
@@ -444,6 +461,23 @@
         }
         p {
           @include text($text-sm, $font-light, $text-color);
+        }
+      }
+    }
+  }
+  &.dark{
+    background-color: $dark-theme;
+    .row_above{
+  
+    
+      .info_{
+        h1{
+          @include text($text-xl, $font-bold, $white);
+          
+        }
+        p{
+          color:white
+  
         }
       }
     }

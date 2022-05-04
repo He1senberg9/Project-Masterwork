@@ -150,7 +150,11 @@
             }
         }
     }
-
+&.dark{
+    h1,span{
+        color:$white
+    }
+}
 }
 .general{
     padding : 3rem 0;
@@ -227,6 +231,13 @@
                 background-repeat: no-repeat;
                 background-position: center center;
             }
+        }
+    }
+    &.dark{
+        background-color: $dark-theme;
+        h1,span{
+            color:$white;
+
         }
     }
 }
@@ -340,6 +351,24 @@
             @include text($text-sm,$font-normal,$gray);
         }
 
+    }
+    &.dark{
+        h1,span{
+            color:white;
+        }
+        .tab-content{
+            .nav-content{
+                .row{
+                    .item{
+                        h2,p{
+                            color:white
+                        }
+                    }
+                }
+            }
+        }
+                
+        
     }
 }
 .clients{
@@ -470,6 +499,11 @@
             background: $primary;
         }
     }
+    &.dark{
+        h1,p{
+            color:$white;
+        }
+    }
 }
 .footer{
     background : #f7f9fc;
@@ -556,6 +590,10 @@
             }
         }
     }
+    &.dark{
+    background : $dark-theme;
+
+    }
 }
 .back-to-top{
     width: 40px;
@@ -577,4 +615,5 @@
 }
 .back-to-top:hover i {
     transform : rotate(0)
+    
 }
