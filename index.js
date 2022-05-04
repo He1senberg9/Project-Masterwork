@@ -32,3 +32,6 @@ function toggle_dropdown() {
   getById("drop_menu").classList.toggle("show_dropdown");
 }
 
+function clearIframe(){
+  document.getElementById("framevideo").setAttribute("src","");
+}
