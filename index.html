@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+      integrity="sha512-SJw7jzjMYJhsEnN/BuxTWXkezA2cRanuB8TdCNMXFJjxG9ZGSKOX5P3j03H6kdMxalKHZ7vlBMB4CagFP/de0A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- OWL CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+
+    <!-- ANIMATION -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>MasterWork</title>
+  </head>
+  <body id="body">
+    <!-- Home-above -->
+    <!-- HEADER -->
+    <header class="header_ animate__animated animate__fadeInLeft wow">
+      <div id="container_id" class="container_">
+        <a href="./index.html"><i class="fa fa-handshake"></i> Masterwork</a>
+        <button id="expand_" onclick="expandHeader()">
+          <i class="fa fa-bars"></i>
+        </button>
+        <button id="cancel_" onclick="cancelHeader()">
+          <i class="fa fa-times"></i>
+        </button>
+        <div id="navbar_id" class="navbar_">
+          <a class="nav_" href="./index.html" style="color: #dc4f72;">Home</a>
+          <a class="nav_" href="./about.html">About</a>
+          <a class="nav_" href="./services.html">Service</a>
+          <a
+            class="dropdown-toggle nav_"
+            href="#"
+            id="navbarDropdown"
+            role="button"
+            onclick="toggle_dropdown()"
+          >
+            Pages
+          </a>
+          <ul id="drop_menu" class="dropdown-menu">
+            <li><a class="dropdown-item" href="./blogPosts.html">Blog posts</a></li>
+            <li><a class="dropdown-item" href="./blogSingle.html">Blog single</a></li>
+            <li><a class="dropdown-item" href="./landingPage.html">Landing Page</a></li>
+          </ul>
+          <a class="nav_" href="./contact.html">Contact</a>
+          <button id="nav_button">SCHEDULE A DEMO</button>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- SIDE BAR -->
+    <div class="iconbox_ animate__animated animate__fadeInLeft wow">
+      <a href=""><i class="fas fa-angle-double-right"></i></a>
+    </div>
+    <section class="side_bar_ animate__animated animate__fadeInLeft wow">
+      <hr />
+      <a href="">
+        <i class="fa fa-arrow-left"></i> <br />
+        Back
+      </a>
+      <a href="">
+        <i class="fa fa-download"></i> <br />
+        Download
+      </a>
+      <a href="">
+        <i class="fa fa-shopping-cart"></i> <br />
+        Buy
+      </a>
+      <div class="form-check form-switch" id="toggleButton">
+        <input class="form-check-input" type="checkbox" onclick="toggle()" id="flexSwitchCheckDefault">
+       
+      </div>
+    </section>
+    <!-- END SIDE BAR -->
+
+    <!-- CONTENT -->
+    <section class="content_ " >
+      <div class="container_">
+        <div class="info_ animate__animated animate__fadeInUp wow">
+          <h1>
+            We Execute Our Ideas<br />
+            From Start to Finish
+          </h1>
+          <p>
+            Building a beautiful interactive business for<br />
+            startups and innovative companies.
+          </p>
+          <button>GET STARTED</button>
+        </div>
+        <div class="image_">
+          <img src="../image/home/main.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END CONTENT -->
+
+    <!-- BUSINESS -->
+    <section  class="business_  ">
+      <div class="container_">
+        <h2>WHY CHOOSE US</h2>
+        <h1>
+          Tools for business startup to <br />
+          professional
+        </h1>
+        <p>
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+        <div class="row_">
+          <div class="col_">
+            <div class="item_ animate__animated animate__fadeInLeft wow">
+              <img src="../image/home/s1.png" alt="" />
+              <h1>Interactive</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__fadeInUp wow">
+              <img src="../image/home/s2.png" alt="" />
+              <h1>Business</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__fadeInRight wow">
+              <img src="../image/home/s3.png" alt="" />
+              <h1>Inspriration</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium tempora rerum perspiciatis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END BUSINESS -->
+
+    <!-- SHOWCASE -->
+    <div class="showcase_ ">
+      <div class="container" style="padding:16px">
+        <div class="row_above animate__animated animate__fadeInUp wow">
+          <div class="info_">
+            <h2>ABOUT OUR COMPANY</h2>
+            <h1>
+              The Best Choice For Your <br />
+              Successful Business!
+            </h1>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et est
+              repellendus illum harum quam nihil totam reprehenderit! Ut sed
+              eveniet quos! Asperiores officia, repudiandae similique
+              reiciendis, ab est magnam esse nesciunt ea fuga facere voluptatem.
+            </p>
+            <button>READ MORE</button>
+          </div>
+          <div class="image_">
+            <img src="../image/home/about.jpg" alt="" />
+          </div>
+        </div>
+        <div class="row_below">
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Happy Customers</h2>
+              <h1 id="number_1" class="counter">10458</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Winning Awards</h2>
+              <h1 id="number_2" class="counter">890</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+          <div class="col_">
+            <div class="item_ animate__animated animate__zoomIn wow">
+              <h2>Completed Projects</h2>
+              <h1 id="number_3" class="counter">5345</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+                atque sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END SHOWCASE -->
+
+    <!-- Home-below -->
+    <!-- Ourselves -->
+    <section class="ourselves">
+      <header class="title">
+        <div class="container">
+          <div class="middle-section">
+            <h1>
+              We are true to ourselves, and commit to always perform at our
+              best.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, doloribus atque. Corrupti exercitationem
+              voluptatem ipsum iste consequuntur et vitae voluptas temporibus?
+              Maxime dolores amet voluptatum illo consequatur placeat fugit
+              ducimus.
+            </p>
+            <button>Read More</button>
+          </div>
+        </div>
+      </header>
+    </section>
+    <!-- Solutions -->
+    <section class="solutions ">
+      <div class="container">
+        <p class="animate__animated animate__backInUp">WE ARE HERE FOR YOU</p>
+        <h1 class="animate__animated animate__backInUp">Explore Solutions</h1>
+        <span style="display: block" class="animate__animated animate__backInUp"
+          >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+          quam.</span
+        >
+        <div class="row mt-5 pt-3">
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="item animate__animated animate__fadeInUpBig wow">
+              <div class="card float-css">
+                <div class="month-year">26 Jan,2020</div>
+                <img
+                  class="card-img-top"
+                  src="../image/home/b1.jpg"
+                  alt="Card image"
+                />
+                <div class="card-body">
+                  <span>Business</span>
+                  <h4 class="card-title">
+                    Corporate, Business & Digital Agency
+                  </h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet nostrum ad minus libero fugiat
+                    molestiae ullam ipsam quas unde earum...
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Know More
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="item animate__animated animate__fadeInUpBig wow">
+              <div class="card float-css">
+                <div class="month-year">15 Apr,2020</div>
+
+                <img
+                  class="card-img-top"
+                  src="../image/home/b7.jpg"
+                  alt="Card image"
+                />
+                <div class="card-body">
+                  <span class="span-green">Design</span>
+                  <h4 class="card-title">
+                    Corporate, Business & Digital Agency
+                  </h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet nostrum ad minus libero fugiat
+                    molestiae ullam ipsam quas unde earum...
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Know More
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="item animate__animated animate__fadeInUpBig wow">
+              <div class="card float-css">
+                <div class="month-year">25 Jun,2020</div>
+
+                <img
+                  class="card-img-top"
+                  src="../image/home/b3.jpg"
+                  alt="Card image"
+                />
+                <div class="card-body">
+                  <span class="span-blue">Industry</span>
+                  <h4 class="card-title">
+                    Corporate, Business & Digital Agency
+                  </h4>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet nostrum ad minus libero fugiat
+                    molestiae ullam ipsam quas unde earum...
+                  </p>
+                  <a href="#" class="btn btn-primary">
+                    Know More
+                    <i class="fa fa-arrow-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- General -->
+    <section class="general ">
+      <div class="container">
+        <p class="animate__animated animate__backInUp wow">
+          QUESTIONS AND ANSWERS
+        </p>
+        <h1 class="animate__animated animate__backInUp wow">General FAQs</h1>
+        <span
+          style="display: block"
+          class="animate__animated animate__backInUp wow"
+          >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+          quam.</span
+        >
+        <div class="row">
+          <div
+            class="col col-12 col-lg-5 animate__animated animate__fadeInUpBig wow"
+          >
+            <div class="general-img float-css"></div>
+          </div>
+          <div
+            class="col col-12 col-lg-7 animate__animated animate__fadeInUpBig wow"
+          >
+            <div id="accordion">
+              <div class="card">
+                <div class="card-header">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                    There are many passages but the majority?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseOne"
+                  class="collapse show"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda, incidunt
+                    officiis eaque iste minima autem
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed btn"
+                    data-bs-toggle="collapse"
+                    href="#collapseTwo"
+                  >
+                    Sed ut perspiciatis unde omnis?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Sit amet consectetur adipisicing elit. Voluptates amet earum
+                    velit nobis aliquam laboriosam nihil debitis animi vitae eos
+                    nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                    voluptates eveniet, incidunt officiis eaque iste minima
+                    autem.
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed btn"
+                    data-bs-toggle="collapse"
+                    href="#collapseThree"
+                  >
+                    At vero eos iusto odio ducimus qui?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    quasi fuga, ad corrupti libero omnis sapiente non assumenda
+                    excepturi aperiam animi vitae eos nisi laudantium. Tempore
+                    reiciendis ipsam culpa, qui voluptates eveniet, incidunt
+                    officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed btn"
+                    data-bs-toggle="collapse"
+                    href="#collapseFour"
+                  >
+                    We denounce with righteous?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    debitis facere voluptatibus consectetur quae quasi fuga, ad
+                    corrupti libero omnis sapiente non assumenda excepturi
+                    aperiam iste minima autem.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed btn"
+                    data-bs-toggle="collapse"
+                    href="#collapseFive"
+                  >
+                    perspiciatis unde omnis?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Sit amet consectetur adipisicing elit. Voluptates amet earum
+                    velit nobis aliquam laboriosam nihil debitis animi vitae eos
+                    nisi laudantium. Tempore reiciendis ipsam culpa, qui
+                    voluptates eveniet, incidunt officiis eaque iste minima
+                    autem.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <a
+                    class="collapsed btn"
+                    data-bs-toggle="collapse"
+                    href="#collapseSix"
+                  >
+                    At vero eos iusto odio ducimus qui?
+                    <i class="fa fa-angle-down"></i>
+                    <i class="fa-none fa fa-angle-up"></i>
+                  </a>
+                </div>
+                <div
+                  id="collapseSix"
+                  class="collapse"
+                  data-bs-parent="#accordion"
+                >
+                  <div class="card-body">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Voluptates amet earum velit nobis aliquam laboriosam nihil
+                    quasi fuga, ad corrupti libero omnis sapiente non assumenda
+                    excepturi aperiam animi vitae eos nisi laudantium. Tempore
+                    reiciendis ipsam culpa, qui voluptates eveniet, incidunt
+                    officiis eaque iste minima autem.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="completed ">
+      <div class="container">
+        <header>
+          <p class="animate__animated animate__backInUp wow">FEATURED CASES</p>
+          <h1 class="animate__animated animate__backInUp wow">
+            Completed Projects
+          </h1>
+          <span class="animate__animated animate__backInUp wow d-block">
+            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus <br />
+            nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+          </span>
+        </header>
+        <div class="nav-group animate__animated animate__backInUp wow">
+          <div class="nav nav-pills me-3" id="v-pills-tab" role="tablist">
+            <div
+              class="nav-link active"
+              id="v-pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#project-one"
+              role="tab"
+            >
+              Project One
+            </div>
+            <div
+              class="nav-link"
+              id="v-pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#project-two"
+              role="tab"
+            >
+              Project Two
+            </div>
+            <div
+              class="nav-link"
+              id="v-pills-messages-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#project-three"
+              role="tab"
+            >
+              Project Three
+            </div>
+          </div>
+          <div
+            class="tab-content animate__animated animate__backInUp wow"
+            id="v-pills-tabContent"
+          >
+            <div
+              class="tab-pane fade show active"
+              id="project-one"
+              role="tabpanel"
+            >
+              <div class="nav-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <h2>Why a visual identity system is more memorable</h2>
+                      <p>
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus. consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <a href="./contact.html">Know More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item float-css">
+                      <img src="../image/home/b4.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="project-two" role="tabpanel">
+              <div class="nav-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item float-css">
+                      <img src="../image/about/b5.jpg" alt="" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item">
+                      <h2>Make website that looks Lorem, ipsum dolor.</h2>
+                      <p>
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus. consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <a href="./contact.html">Know More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="project-three" role="tabpanel">
+              <div class="nav-content">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item">
+                      <h2>Why a visual identity system is more memorable</h2>
+                      <p>
+                        Lorem ipsum dolor sit, adipisicing elit repudiandae
+                        perferendis dolores praesentium nulla quibusdam
+                        repellendus. consequatur minus aliquam corrupti
+                        blanditiis, necessitatibus consectetur modi ipsum natus
+                        accusantium sit pariatur.
+                      </p>
+                      <a href="./contact.html">Know More</a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="item float-css">
+                      <img src="../image/blog single/b6.jpg" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-group-mobile">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                >
+                  Project One
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="image">
+                    <img src="../image/home/b4.jpg" alt="" />
+                  </div>
+                  <h2>Why a visual identity system is more memorable</h2>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
+                  </p>
+                  <button>KNOW MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                >
+                  Project Two
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <div class="image">
+                    <img src="../image/blog single/b5.jpg" alt="" />
+                  </div>
+                  <h2>Make website that looks Lorem, ipsum dolor.</h2>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
+                  </p>
+                  <button>KNOW MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                >
+                  Project Three
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  <h2>Why a visual identity system is more memorable</h2>
+                  <p>
+                    Lorem ipsum dolor sit, adipisicing elit repudiandae
+                    perferendis dolores praesentium nulla quibusdam repellendus.
+                    consequatur minus aliquam corrupti blanditiis,
+                    necessitatibus consectetur modi ipsum natus accusantium sit
+                    pariatur.
+                  </p>
+                  <button>KNOW MORE</button>
+                  <div class="image">
+                    <img src="../image/blog single/b6.jpg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Clients -->
+    <section class="clients">
+      <div class="container">
+        <header>
+          <p>OUR CLIENTS TESTIMONIALS</p>
+          <h1>What People Say</h1>
+          <span
+            >Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+            posuere cubilia Curae; Nulla mollis dapibus <br />
+            nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis
+            quam.</span
+          >
+        </header>
+        <main>
+          <div
+            class="owl-carousel owl-theme animate__animated animate__fadeInUp wow"
+          >
+            <div class="item">
+              <div class="img-cirlce rounded-circle">
+                <img src="../image/blog single/team3.jpg" alt="" />
+              </div>
+              <div class="message">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </h4>
+                <p>Benjamin Lucas</p>
+                <span>Company name</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-cirlce rounded-circle">
+                <img src="../image/blog single/team4.jpg" alt="" />
+              </div>
+              <div class="message">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </h4>
+                <p>Isabella Mia</p>
+                <span>Company name</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-cirlce rounded-circle">
+                <img src="../image/home/team5.jpg" alt="" />
+              </div>
+              <div class="message">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </h4>
+                <p>Oliver Bradley</p>
+                <span>Company name</span>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img-cirlce rounded-circle">
+                <img src="../image/home/team6.jpg" alt="" />
+              </div>
+              <div class="message">
+                <i class="fa-solid fa-quote-left"></i>
+                <h4>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda corporis deleniti praesentium doloremque.
+                  Repellendus soluta quos nemo quisquam consectetur temporibus
+                  quam obcaecati sapiente quaerat et.
+                </h4>
+                <p>William James</p>
+                <span>Company name</span>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </section>
+
+    <!-- Community -->
+    <section class="community ">
+      <div class="container">
+        <h1 class="animate__animated animate__fadeInUp wow">
+          Ready to build your own brand <br />
+          community?
+        </h1>
+        <p class="animate__animated animate__fadeInUp wow">
+          Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+          posuere cubilia Curae; Nulla mollis dapibus <br />
+          nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.
+        </p>
+        <a class="animate__animated animate__fadeInUp wow" href=""
+          >BOOK A DEMO</a
+        >
+        <a
+          class="button-primary animate__animated animate__fadeInUp wow"
+          href="./about.html"
+          >GET STARTED</a
+        >
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer animate__animated animate__fadeInUp wow ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Company</h3>
+              <a href="">Home</a>
+              <a href="">About Us</a>
+              <a href="">Services</a>
+              <a href="">Blog </a>
+              <a href="">Contact</a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Useful Links</h3>
+              <a href="">Case Studies</a>
+              <a href="">Our Branches</a>
+              <a href="">Latest Media</a>
+              <a href="">About Company </a>
+              <a href="">Our People</a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="item">
+              <h3>Our Services</h3>
+              <a href="">Privacy Policy</a>
+              <a href="">Our Terms</a>
+              <a href="">Services</a>
+              <a href="">Landing Page</a>
+              <a href="">Our People</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="item">
+              <h3>Newsletter</h3>
+              <div class="form">
+                <form action="">
+                  <p>Get latest updates and offers.</p>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name=""
+                      id=""
+                      placeholder="Email Address"
+                    />
+                    <a href="#">Go</a>
+                  </div>
+                  <span
+                    >Sign up for our latest news & articles. We won’t give you
+                    spam <br />
+                    mails.</span
+                  >
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="end">
+          <p>
+            <i class="fa-solid fa-copyright"></i>
+            2020 Masterwork. All rights reserved | Designed by W3Layouts
+          </p>
+          <div class="icon">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+            <a href="#">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <a href="#" class="back-to-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- OWL CAROUSEL -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 2,
+          },
+        },
+      });
+    </script>
+    <script>
+      var offset = 500;
+      // thời gian di trượt 0.75s ( 1000 = 1s )
+      var duration = 750;
+      $(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > offset) $(".back-to-top").fadeIn(duration);
+          else $(".back-to-top").fadeOut(duration);
+        });
+      });
+    </script>
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- WOW -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.countup.min.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/toggle.js"></script>
+  </body>
+</html>
