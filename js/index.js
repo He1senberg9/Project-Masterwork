@@ -35,3 +35,9 @@ function toggle_dropdown() {
 function clearIframe(){
   document.getElementById("framevideo").setAttribute("src","");
 }
+// COUNT UP
+$('.counter').countUp();
+$('.counter').countUp({
+  delay: 30,
+  time: 6000
+});
