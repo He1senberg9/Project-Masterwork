@@ -174,7 +174,6 @@
     .row{
         padding : 4rem 0;
         #accordion{
-            padding : 0 2rem;
             text-align:left;
             .card{
                 margin-bottom : 0.9rem;
@@ -221,10 +220,10 @@
             
             .general-img{
     transition :all 0.5s linear;
-
+                margin-bottom: 1rem;
                 box-shadow: 0 0 3px rgba(0,0,0,0.4);
                 height: 569px;
-                max-width:569px;
+                
                 width: 100%;
                 background-image:url("../image/home/women.jpg");
                 background-size: cover;
@@ -547,9 +546,11 @@
                 }
             }
             .form{
+                .input-group{
+                    flex-wrap: nowrap;
+                }
                 box-shadow:  0 0 2px 4px rgba(0,0,0,0.02);
-                height:250px;
-                max-height: 250px;
+               min-height:250px;
                 background :$white;
                 padding : 2rem;
                 border-radius: 6px;
@@ -579,7 +580,8 @@
                     display: inline-block;
                     margin : 0 0 0 1rem;
                     border-radius: 6px;
-
+                    width :92px;
+                    max-width:100%;
 
                 }
                 span{
@@ -607,7 +609,7 @@
     color : #fff;
     text-decoration: none;
     line-height: 40px;
-    
+    z-index: 20;
 }
 .back-to-top i {
     transform : rotate(180deg);
